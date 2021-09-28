@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "127367390698",
+    "firebase_url": "https://reto-intercorp-60dd9-default-rtdb.firebaseio.com",
+    "project_id": "reto-intercorp-60dd9",
+    "storage_bucket": "reto-intercorp-60dd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127367390698:android:52c930cd94c2bd568afe93",
+        "android_client_info": {
+          "package_name": "bimerso.cliente.firebasemvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127367390698-fdoepdboj8c6l6qmutpebl2c11hi3cor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bimerso.cliente.firebasemvvm",
+            "certificate_hash": "c7cdde7d0d940224b4efeee1556d9174b5c6d1b8"
+          }
+        },
+        {
+          "client_id": "127367390698-deiqj3bh3486k69eu1qlki48prnud0en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ez3VeJH3UZanIdoBcc1v2rmlZDOEGGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127367390698-deiqj3bh3486k69eu1qlki48prnud0en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

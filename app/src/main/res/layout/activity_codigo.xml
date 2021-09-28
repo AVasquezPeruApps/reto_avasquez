@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".views.Login">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa el código que te enviamos"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:textSize="18dp" />
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/editTextCodeVerification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="12dp"
+        android:layout_marginTop="48dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/black"
+        android:hint="Codigo de verificacion"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btnCodeVerification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textAllCaps="false"
+            android:layout_margin="30dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

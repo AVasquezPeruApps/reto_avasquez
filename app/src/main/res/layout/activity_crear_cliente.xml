@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".views.CrearCliente">
+    <EditText
+        android:id="@+id/etnombre_crear"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etapellido_crear"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:hint="Apellidos"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etedad_crear"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:hint="Edad"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etfecha_crear"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:inputType="text"
+        android:hint="Fecha de nacimiento : 19/05/1996"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Registrarse"
+        android:textAllCaps="false" />
+</LinearLayout>
